@@ -27,5 +27,7 @@ This is not needed to use the system. It is how the tarball that is in the
 releases section of this repo is created.
 
 ``` sh
+mix ns.clean
+mix ns.build
 mix nerves.artifact
 ```
